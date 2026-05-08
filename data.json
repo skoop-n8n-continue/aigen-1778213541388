@@ -1,0 +1,84 @@
+{
+  "app_id": "aigen-1778213541388",
+  "document_version": 1,
+  "sections": {
+    "storefront": {
+      "app_name": {
+        "type": "text",
+        "label": "App Name",
+        "value": "Hello World App"
+      },
+      "headline": {
+        "type": "text",
+        "label": "Headline",
+        "value": "Hello, World!"
+      },
+      "subheadline": {
+        "type": "textarea",
+        "label": "Subheadline",
+        "value": "Welcome to your first Skoop digital signage application. This app demonstrates data-driven content and live preview capabilities."
+      },
+      "logo": {
+        "type": "file",
+        "label": "Logo",
+        "value": "assets/app_logo-1778213609155.png",
+        "meta": {
+          "accepted_formats": ["png", "jpg", "svg"],
+          "path": "assets/"
+        }
+      },
+      "background_image": {
+        "type": "file",
+        "label": "Background Image",
+        "value": "assets/app_background-1778213630602.png",
+        "meta": {
+          "accepted_formats": ["png", "jpg", "webp"],
+          "path": "assets/"
+        }
+      }
+    },
+    "app_settings": {
+      "primary_color": {
+        "type": "color",
+        "label": "Primary Color",
+        "value": "#00b7af"
+      },
+      "text_color": {
+        "type": "color",
+        "label": "Text Color",
+        "value": "#ffffff"
+      },
+      "show_logo": {
+        "type": "boolean",
+        "label": "Show Logo",
+        "value": true
+      }
+    },
+    "features": {
+      "type": "collection",
+      "label": "Feature Highlights",
+      "item_schema": {
+        "id": { "type": "text", "label": "ID" },
+        "title": { "type": "text", "label": "Feature Title" },
+        "description": { "type": "text", "label": "Description" }
+      },
+      "value": [
+        {
+          "id": "feat_a1b2c3",
+          "title": "Data Driven",
+          "description": "Content is managed via data.json"
+        },
+        {
+          "id": "feat_d4e5f6",
+          "title": "Live Preview",
+          "description": "Instant updates in the configurator"
+        },
+        {
+          "id": "feat_g7h8i9",
+          "title": "Signage Ready",
+          "description": "Optimized for large display screens"
+        }
+      ]
+    }
+  }
+}

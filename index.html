@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container" data-bind-bg-image="storefront.background_image">
+        <div class="overlay">
+            <header>
+                <img class="logo" data-bind-src="storefront.logo" data-bind-show="app_settings.show_logo" alt="Logo">
+                <h1 data-bind-text="storefront.app_name"></h1>
+            </header>
+
+            <main>
+                <div class="hero">
+                    <h2 class="headline" data-bind-text="storefront.headline"></h2>
+                    <p class="subheadline" data-bind-text="storefront.subheadline"></p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Features will be rendered here -->
+                </div>
+            </main>
+
+            <footer>
+                <p>&copy; 2026 Skoop Agent. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
