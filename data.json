@@ -41,7 +41,7 @@
       "primary_color": {
         "type": "color",
         "label": "Primary Color",
-        "value": "#FF9800"
+        "value": "#F44336"
       },
       "text_color": {
         "type": "color",
